@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* -------share items--- */
+
+.font-16{
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+.btn-primary{
+    height: auto;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px;
+
+}
+
+
+/* ----header section--- */
+
+body{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 87px;
+}
+
+.navbar-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.navbar-section h1 a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+.menu{
+    width: 100%;
+    max-width: 443px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    text-decoration: none;
+}
+.banner-section{
+    height: 475px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: 730px;
+    align-items: center;
+
+}
+
+.banner-artical h2{
+    font-size: 3.25rem;
+    font-weight: bold;
+    color: #3A3A3A;
+    width: 100%;
+    max-width: 582px;
+}
+.banner-artical p{
+    width: 100%;
+    max-width: 505px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .navbar-section{
+        display: grid;
+        gap: 5px;
+    }
+}
