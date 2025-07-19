@@ -15,7 +15,6 @@
     font-size: 1rem;
     font-weight: 600;
     margin-top: 16px;
-    margin-bottom: 30px;
 }
 
 .btn-primary{
@@ -28,6 +27,7 @@
     border: none;
     border-radius: 41px;
     padding: 10px 24px;
+    margin: 35px 0;
 
 }
 
@@ -51,7 +51,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
 }
 .navbar-section h1 a{
     text-decoration: none;
@@ -76,6 +75,7 @@ header{
     background-repeat: no-repeat;
     background-position: 730px;
     align-items: center;
+    margin: 50px 0;
 
 }
 
@@ -90,6 +90,29 @@ header{
     width: 100%;
     max-width: 505px;
 }
+
+
+/* ------sponsor-section------ */
+
+.sponsor{
+    height: 110px;
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+
+}
+/* .sponsor img{
+    height: auto;
+    width: 100%;
+    max-width: 100px;
+} */
 
 
 
